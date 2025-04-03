@@ -18,7 +18,7 @@
     "target": "es2022",
     "customConditions": ["development"],
     "paths": {
-      "@ttt/ui": ["libs/shared-ui/src/index.ts"]
+      "@ttt/ui": ["./libs/ui/src/index.ts"]
     }
   }
 }

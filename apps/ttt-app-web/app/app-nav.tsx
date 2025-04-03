@@ -1,3 +1,4 @@
+import { Button } from '@ttt/libs';
 import { NavLink } from 'react-router';
 
 export function AppNav() {
@@ -9,6 +10,8 @@ export function AppNav() {
       <NavLink to="/about" end>
         About
       </NavLink>
+      
+      <Button />
     </nav>
   );
 }
