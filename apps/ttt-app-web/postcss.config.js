@@ -1,5 +1,3 @@
-;
-
 // Note: If you use library-specific PostCSS/Tailwind configuration then you should remove the `postcssConfig` build
 // option from your application's configuration (i.e. project.json).
 //
@@ -13,10 +11,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default {
-  plugins: {
-    tailwindcss: {
-      config: join(__dirname, 'tailwind.config.js'),
+    plugins: {
+        tailwindcss: {
+            config: join(__dirname, 'tailwind.config.js'),
+        },
+        autoprefixer: {},
     },
-    autoprefixer: {},
-  },
 };

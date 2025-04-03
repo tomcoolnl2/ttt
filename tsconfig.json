@@ -1,22 +1,22 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compileOnSave": false,
-  "files": [],
-  "references": [
-    {
-      "path": "./apps/ttt-app-web-e2e"
-    },
-    {
-      "path": "./apps/ttt-app-web"
-    },
-    {
-      "path": "./libs"
-    },
-    {
-      "path": "./apps/ttt-app-mobile-e2e"
-    },
-    {
-      "path": "./apps/ttt-app-mobile"
-    }
-  ]
+    "extends": "./tsconfig.base.json",
+    "compileOnSave": false,
+    "files": [],
+    "references": [
+        {
+            "path": "./apps/ttt-app-web-e2e"
+        },
+        {
+            "path": "./apps/ttt-app-web"
+        },
+        {
+            "path": "./libs"
+        },
+        {
+            "path": "./apps/ttt-app-mobile-e2e"
+        },
+        {
+            "path": "./apps/ttt-app-mobile"
+        }
+    ]
 }
