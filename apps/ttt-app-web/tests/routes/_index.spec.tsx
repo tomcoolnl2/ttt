@@ -1,3 +1,4 @@
+import React from 'react';
 import { createRoutesStub } from 'react-router';
 import { render, screen, waitFor } from '@testing-library/react';
 import App from '../../app/app';
